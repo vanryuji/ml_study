@@ -26,3 +26,10 @@ tensorflow_model_server \
   --model_name=fashion_model \
   --model_base_path=/tmp
 ```
+
+
+
+# Send a request
+```shell
+python client.py
+```
