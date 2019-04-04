@@ -14,11 +14,15 @@ apt-get update && apt-get install tensorflow-model-server
 # Training
 ```shell
 python train.py
+
+# Saved model path : /tmp/1
 ```
-### Saved model path
-/tmp/1
+
 
 # Serving
 ```shell
-python train.py
+tensorflow_model_server \
+  --rest_api_port=8501 \
+  --model_name=fashion_model \
+  --model_base_path=/tmp > server.log
 ```
