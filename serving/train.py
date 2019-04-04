@@ -65,5 +65,5 @@ tf.saved_model.simple_save(
     inputs={'input_image': model.input},
     outputs={t.name:t for t in model.outputs})
 
-print('\nSaved model:')
+print('\nSaved model:', export_path)
                            
