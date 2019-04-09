@@ -1,8 +1,8 @@
 # Environments
-Ubuntu : 18.04.2<br>
-Python : 3.6.7<br>
-Tensorflow : 1.13.1<br>
-TensorFlow ModelServer : 1.13.0-rc1+dev.sha.f16e777<br>
+* Ubuntu : 18.04.2<br>
+* Python : 3.6.7<br>
+* Tensorflow : 1.13.1<br>
+* TensorFlow ModelServer : 1.13.0-rc1+dev.sha.f16e777<br>
 ```shell
 # 'tensorflow_model_server' command installation :
 
